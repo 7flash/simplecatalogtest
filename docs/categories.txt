@@ -1,0 +1,17 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+
+--- Документация по плагину Simplecatalog: Категории ---
+
+1. Удаление категории призводит к установке родительской категории у всех продуктов, имеющих удаляемую категорию и пересчете количества продуктов у категории.

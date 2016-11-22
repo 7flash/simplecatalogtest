@@ -1,0 +1,21 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+
+--- Порядок обработки вводимых пользователем значений ---
+
+Обработка вводимых данных из каждого поля формы создания продукта выполняется в следующем порядке:
+
+1. Парсер самого движка - удаление всего лишнего и запрещенного
+2. Кастомный валидатор плагина - проверка на конкретный тип содержимого, заданный валидатором поля схемы
+3. Проверка по внутренним правилам поля схемы - проверка на границы длины поля, обязательность заполнения поля и т.п.

@@ -1,0 +1,258 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* misc */
+
+div.Simplecatalog .cp {
+	cursor: pointer;
+}
+
+div.Simplecatalog .cd {
+	cursor: default;
+}
+
+div.Simplecatalog .sub-title {
+	font-size: 20px;
+}
+
+div.Simplecatalog .sub-title > span {
+	color: #999999;
+}
+
+div.Simplecatalog .mw100px {
+	min-width: 100px;
+}
+
+div.Simplecatalog .loading {
+	background: transparent url("data:image/gif;base64,R0lGODlhLgAQALMIABNy8QCc/weM+iR47jWz+Btr7QOU/AqD9////wAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAIACwAAAAALgAQAAAEKRDJSau9OOvNu/9gKI5kaZ5oSgUBxrrt9XYAgNW3feFq7//AoHBILJ4iACH5BAUKAAgALAYABgAEAAQAAAQJMMggqgAYjD0iACH5BAkKAAgALAUABQAPAAYAAAQdMMiJqrUm64tmOGDICaQAXCdaAUXrckM8EHTNXREAIfkECQoACAAsAAAAAC4AEAAABEIQyUmrvTjrzbv/YCiOZOkFaGpmaVAZcFy1pmAL1aHv1Y2XgCCgIhQSJcPSYDmoFJ7QCrO5uhCu2Kp2y+16v+DwJAIAIfkECQoACAAsAAAAAC4AEAAABEUQyUmrvTjrzbv/YCiOZGlKQaqemBpURixXbpdeQi5UR+9Xuh0HALgQiZXjMbksDZ6DSmFKrUCjLAthy816v+CweEwORQAAIfkECQoACAAsAAAAAC4AEAAABD8QyUmrvTjrzbv/YCiOZGlyQaqemBpURiyj75VeQi5UR+9zAAAmeAkSKUYj6zJoDiqFqHT5IViv1Kx2y+16vREAIfkEBQoACAAsAAAAAC4AEAAABDEQyUmrvTjrzbv/YCiOZGmeKBesQbdi7xVXQi10AIDlu27lvBRoQBwIj8ikcslsOjkRADs=") 50% 50% no-repeat;
+}
+
+.Simplecatalog time {
+	color: #888888;
+}
+
+div.Simplecatalog div.search-results-are-empty {
+	border-top: 1px solid #EEEEEE;
+	margin-top: 25px;
+	padding-top: 20px;
+}
+
+div.Simplecatalog .link-dotted {
+	border-bottom: 1px dotted;
+	text-decoration: none;
+}
+
+div.Simplecatalog .hasDatepicker {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAAsSAAALEgHS3X78AAABOklEQVQYlZXOMWvCQBQH8Lt7J4JDLomQQN2KaZJR6Afo3LESuS/Rbi0I3Tvolq/gIC3N6uwu6KaH0C2CQZLTQkHS5DoFRDq0Dx5/fu+94SEhRJtzPmKM7YQQV+fNGNtxzkdCiDZGCCn0x6KWZSUYY4UQQkopfH5wuqPdbvcdAIqyLAkhpFRKYYyxqrKaF0UB/3oDms3m/XQ6vWk0Gl+DweBJ07TDcDh81DTts3IYhg9RFN2RPM9rcRy3pJT6ZrO5+C3jOG7leV4jAFD4vr+0bXvruq6wbXvred7q1L7vLwGgAErps+d5q9lsdk0IUYvFokMIUfP5vFOZUvo9mUxuab1eP3LOx0mSWEEQvO33e9br9V6llHplzvm43++/YAA4Oo7zkaapqeu6lFLqhmFkWZYZlU3TTNfr9eUPoWi3C5nfbxoAAAAASUVORK5CYII=");
+	background-repeat: no-repeat;
+	background-position: right 6px center;
+	padding-right: 20px;
+}
+
+div.Simplecatalog .title-underline {
+	border-bottom: 1px solid #BBBBBB;
+	padding: 10px 0;
+	margin: 30px 0;
+}
+
+div.Simplecatalog .title-underline:first-child {
+	margin-top: 0;
+}
+
+/* cells for forms */
+
+div.Simplecatalog dl.w50p {
+	clear: both;
+	overflow: hidden;
+}
+
+div.Simplecatalog dl.w50p dt {
+	float: left;
+	width: 50%;
+}
+
+div.Simplecatalog dl.w50p dd {
+	overflow: hidden;
+}
+
+/* list table */
+
+div.Simplecatalog .table-items-list {
+	margin-bottom: 20px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+}
+
+div.Simplecatalog .table-items-list thead {
+	cursor: default;
+	text-shadow: 0 1px 1px #FFFFFF;
+	font: 13px/19px Tahoma;
+	background: #EEEEEE;
+	background: -moz-linear-gradient(top,	rgba(245,245,245,1) 0%, rgba(238,238,238,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,245,245,1)), color-stop(100%,rgba(238,238,238,1)));
+	background: -webkit-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	background: -o-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	background: -ms-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	color: #555555;
+}
+
+div.Simplecatalog .table-items-list th {
+	padding: 1px 2px 3px;
+	border-color: #ddd;
+}
+
+div.Simplecatalog .table-items-list tbody tr:nth-child(2n) {
+	background: #FAFAFA;
+}
+
+div.Simplecatalog .table-items-list tbody tr:hover {
+	background: #EEF8FF;
+}
+
+div.Simplecatalog .table-items-list td {
+	padding: 1px 3px 2px;
+	text-align: center;
+	border: 1px solid #DDDDDD;
+}
+
+div.Simplecatalog .table-items-list td.nameleft {
+	text-align: left;
+}
+
+/* sortable rows */
+
+div.Simplecatalog .ui-sortable > * {
+	cursor: move;
+}
+
+/* add scheme description field */
+
+div.Simplecatalog.Scheme.Add textarea.input-text {
+	height: 100px;
+}
+
+/* short field list in schemes list */
+
+div.Simplecatalog.Scheme.Index .toggle-field-list {
+	border-bottom: 1px dotted;
+	text-decoration: none;
+}
+
+div.Simplecatalog.Scheme.Index .field-list {
+	background: none repeat scroll 0 0 rgba(71, 193, 234, 0.57);
+	display: none;
+	margin-top: 2px;
+	text-align: left;
+}
+
+div.Simplecatalog.Scheme.Index .field-list li {
+	clear: both;
+	overflow: hidden;
+	padding: 0 3px;
+}
+
+div.Simplecatalog.Scheme.Index .field-list li.second {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.39);
+}
+
+div.Simplecatalog.Scheme.Index .field-list li:hover {
+	background: none repeat scroll 0 0 rgba(162, 162, 162, 0.33);
+}
+
+/* scheme fields list */
+
+div.Simplecatalog.Field.Index table tbody .option-disabled {
+	opacity: 0.1;
+}
+
+/* product fields list (index) */
+
+div.Simplecatalog.Product.Index .table-items-list .fields-list-row {
+	width: 500px;
+}
+
+div.Simplecatalog .admin-index-fields-list {
+	margin: -1px -3px -2px;
+}
+
+div.Simplecatalog .admin-index-fields-list li {
+	background: #EEE;
+	background: -moz-linear-gradient(top,	rgba(245,245,245,1) 0%, rgba(238,238,238,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,245,245,1)), color-stop(100%,rgba(238,238,238,1)));
+	background: -webkit-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	background: -o-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	background: -ms-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom,	rgba(245,245,245,1) 0%,rgba(238,238,238,1) 100%);
+	border-bottom: 1px solid #FFFFFF;
+	padding: 1px 3px;
+	max-width: 500px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+div.Simplecatalog .admin-index-fields-list li:last-child {
+	border-bottom: medium none;
+}
+
+div.Simplecatalog .admin-index-fields-list li.second {
+	background: #EAEAEA;
+	background: -moz-linear-gradient(top,	rgba(245,245,245,1) 0%, rgba(234,234,234,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,245,245,1)), color-stop(100%,rgba(234,234,234,1)));
+	background: -webkit-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(234,234,234,1) 100%);
+	background: -o-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(234,234,234,1) 100%);
+	background: -ms-linear-gradient(top,	rgba(245,245,245,1) 0%,rgba(234,234,234,1) 100%);
+	background: linear-gradient(to bottom,	rgba(245,245,245,1) 0%,rgba(234,234,234,1) 100%);
+}
+
+div.Simplecatalog .admin-index-fields-list li span.field {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+div.Simplecatalog .admin-index-fields-list li span.content {}
+
+/* icheck style fixes */
+
+.icheckbox_square-green {
+	display: inline-block !important;
+	left: 0;
+	margin-right: 5px !important;
+	position: relative;
+	top: 6px;
+}
+
+/* autocompleter items images support */
+
+.sc-autocompleter-product-image {
+	display: inline-block;
+	height: auto;
+	margin-right: 10px;
+	vertical-align: middle;
+	width: 55px;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* checkboxes wrapper for multiselect */
+
+.Simplecatalog .checkboxes-multi-select-wrapper {
+	max-height: 215px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* multiline editor height */
+
+.Simplecatalog .multi-line-editor {
+	height: 200px;
+}

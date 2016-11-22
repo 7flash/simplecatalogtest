@@ -1,0 +1,30 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* typography */
+
+div.Simplecatalog.Product .one-product-wrapper .product-fields > li .field-value img {
+	max-width: 100%;
+	height: auto;
+}
+
+div.Simplecatalog.Product .one-product-wrapper .product-fields > li .field-value ul li {
+	list-style: inside none circle;
+	margin-left: 2px;
+}
+
+div.Simplecatalog.Product .one-product-wrapper .product-fields > li .field-value blockquote {
+	background: none repeat scroll 0 0 hsl(240, 14%, 99%);
+	border-left: 5px solid hsl(240, 16%, 94%);
+	margin: 0;
+	padding: 10px 15px;
+}

@@ -1,0 +1,35 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+
+--- Код поля схемы ---
+
+
+1. Метод для получения сущности поля продукта по коду поля схемы:
+
+  $oCustomProductField = $oProduct->getProductFieldBySchemeFieldCode('code')
+
+Но в списке всех полей продуктов поле с кодом тоже будет выводится, это сделано для совместимости. Чтобы убрать поле с нужным кодом из общего списка полей, в метод получения всех полей нужно передать код этого поля:
+
+  {assign var=aProductFields value=$oProduct->getProductFieldsWOFirstField('code')}
+
+данный вызов находится в файле \plugins\simplecatalog\templates\skin\default\product\item.tpl, 49 строка
+
+
+2. У сущности поля продукта можно, например, получить значение:
+
+  {if $oCustomProductField = $oProduct->getProductFieldBySchemeFieldCode('code')}
+      Значение поля: {$oCustomProductField->getDisplayValue()}
+  {else}
+      Поля с таким кодом нет, в свойствах поля схемы укажите код
+  {/if}

@@ -1,0 +1,59 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* product categories list */
+
+.Simplecatalog .product-categories-list {
+	overflow: hidden;
+}
+
+.Simplecatalog .product-categories-list .one-category {
+	display: inline-block;
+}
+
+.Simplecatalog .product-categories-list .one-category .category-image {
+	border-radius: 2px;
+	display: inline-block;
+	height: 16px;
+	vertical-align: text-top;
+	width: auto;
+}
+
+.Simplecatalog .product-categories-list .one-category:after {
+	background: none repeat scroll 0 0 hsl(0, 0%, 73%);
+	border-radius: 3px;
+	content: "";
+	display: inline-block;
+	height: 5px;
+	margin: 0 4px;
+	vertical-align: middle;
+	width: 5px;
+}
+
+.Simplecatalog .product-categories-list .one-category:last-child:after {
+	display: none;
+}
+
+/* category image for search in category page */
+
+.Simplecatalog .in-category-search.category-image {
+	border-radius: 2px;
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+
+/* categories count */
+
+.Simplecatalog .category-item-targets-count {
+	color: #777;
+}

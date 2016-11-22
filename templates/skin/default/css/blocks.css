@@ -1,0 +1,119 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* general products list */
+
+.Simplecatalog .one-product-short {
+	padding: 5px;
+	overflow: hidden;
+	transition: background 0.15s ease 0s;
+}
+
+.Simplecatalog .one-product-short:nth-child(2n) {
+	background: #fafafa none repeat scroll 0 0;
+}
+
+.Simplecatalog .one-product-short:hover {
+	background: #efefef none repeat scroll 0 0;
+}
+
+/* title */
+
+.Simplecatalog .one-product-short a.title {
+	background: #608cab none repeat scroll 0 0;
+	border-radius: 2px;
+	color: #fff;
+	padding: 0 4px 1px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background 0.15s ease 0s;
+}
+
+.Simplecatalog .one-product-short:hover a.title {
+	background: #456c8a none repeat scroll 0 0;
+}
+
+/* image */
+
+.Simplecatalog.last-products img.preview {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	border-radius: 2px;
+	height: auto;
+	width: 50px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* footer info */
+
+.Simplecatalog .one-product-short .small-footer-details {
+	margin-top: 2px;
+	font-size: 11px;
+}
+
+.Simplecatalog .one-product-short .small-footer-details li {
+	float: left;
+	margin-right: 6px;
+}
+
+.Simplecatalog .one-product-short .small-footer-details li:last-child {
+	margin-right: 0;
+}
+
+.Simplecatalog .one-product-short .small-footer-details li.secondary-info {
+	opacity: 0.1;
+	transition: all 0.15s ease 0s;
+}
+
+.Simplecatalog .one-product-short:hover .small-footer-details li.secondary-info {
+	opacity: 1;
+}
+
+.Simplecatalog .one-product-short .small-footer-details li a {
+	text-decoration: none;
+}
+
+/* categories */
+
+.Simplecatalog.Categories .empty {
+	color: #999999;
+	text-decoration: none;
+}
+
+.Simplecatalog.Categories .category-image {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 2px;
+}
+
+/* short products list - sidebar */
+
+.Simplecatalog.last-products .sc-last-products-scheme-title {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.Simplecatalog.last-products .sc-last-products-scheme-title:first-child,
+.Simplecatalog.last-products .sc-last-products-hook-scheme-title:first-child {
+	margin-top: 0;
+}
+
+/* short products list - before content */
+
+.Simplecatalog.last-products .sc-last-products-hook-scheme-title {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+}
