@@ -1,0 +1,27 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+--- Фикс багов лс 1.0.3 ---
+
+В плагине есть места, которые обходят ошибки в самом движке лс.
+
+
+
+--- Баги роутера ---
+
+1. Если в строке запроса были гет параметры ("?"), то роутер в параметры экшена может добавить последним параметром пустую строку.
+В двух местах есть фикс этого бага: в регулярке загрузчика коротких урлов (config/urls/loader.php) и в экшене продуктов (ActionProduct.class.php) в PreparePagingByScheme():
+
+  $this->aParamsWOPage = array_filter($this->aParamsWOPage);
+
+В новой версии лс этот баг исправлен.

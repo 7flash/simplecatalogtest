@@ -1,0 +1,79 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* add - yandex */
+
+#sc_product_add_map_wrapper {
+	width: 100%;
+	height: 600px;
+}
+
+#sc_product_add_map_wrapper input {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#sc_map_preset_list {
+	border: 1px solid hsl(0, 0%, 87%);
+	box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.07) inset;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+#sc_map_preset_list img {
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+#sc_map_preset_list img.active {
+	border-color: #555;
+	box-shadow: 0 2px 3px hsla(0, 0%, 0%, 0.16);
+}
+
+/* list - yandex */
+
+#sc_product_item_map_wrapper,
+#sc_products_map_wrapper {
+	width: 100%;
+	height: 500px;
+}
+
+#sc_products_map_wrapper {
+	height: 600px;
+}
+
+/* all items loader */
+
+.Simplecatalog .map-item-header {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.Simplecatalog .map-item-body {}
+
+.Simplecatalog .map-item-footer {
+	font-size: 90%;
+	color: #888;
+}
+
+.Simplecatalog .map-item-product-image {
+	float: left;
+	margin-right: 10px;
+	width: 45%;
+}
+
+.Simplecatalog .map-item-product-image img {
+	border-radius: 2px;
+	display: block;
+	height: auto;
+	width: 100%;
+}

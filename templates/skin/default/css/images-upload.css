@@ -1,0 +1,45 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* uploading images */
+
+.sc-images-uploaded-list {
+	clear: both;
+	overflow: hidden;
+}
+
+.sc-images-uploaded-list > div {
+	float: left;
+	margin: 20px 20px 0 0;
+	position: relative;
+}
+
+.sc-images-uploaded-list > div > img {
+	border: 7px solid rgba(147, 147, 147, 0.31);
+	border-radius: 2px;
+	height: 90px;
+}
+
+.sc-images-uploaded-list > div > a {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.75);
+	border-radius: 0 0 0 6px;
+	padding: 0 0 0 3px;
+}
+
+.sc-images-upload-input {
+	background: #FAFAFA;
+	border-radius: 2px;
+	padding: 10px;
+}

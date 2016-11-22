@@ -1,0 +1,182 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* shop */
+
+.Simplecatalog .price-n-buy {
+	margin-bottom: 10px;
+	background: url("../images/curve_line.png") no-repeat scroll left center;
+	clear: right;
+}
+
+.Simplecatalog .price-n-buy .buy {}
+
+.Simplecatalog .price-n-buy .buy a {
+	background: #31b20e;
+	background: -moz-linear-gradient(top,  rgba(49,178,14,1) 0%, rgba(49,178,14,0.81) 49%, rgba(49,178,14,1) 50%, rgba(35,127,10,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(49,178,14,1)), color-stop(49%,rgba(49,178,14,0.81)), color-stop(50%,rgba(49,178,14,1)), color-stop(100%,rgba(35,127,10,1)));
+	background: -webkit-linear-gradient(top,  rgba(49,178,14,1) 0%,rgba(49,178,14,0.81) 49%,rgba(49,178,14,1) 50%,rgba(35,127,10,1) 100%);
+	background: -o-linear-gradient(top,  rgba(49,178,14,1) 0%,rgba(49,178,14,0.81) 49%,rgba(49,178,14,1) 50%,rgba(35,127,10,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(49,178,14,1) 0%,rgba(49,178,14,0.81) 49%,rgba(49,178,14,1) 50%,rgba(35,127,10,1) 100%);
+	background: linear-gradient(to bottom,  rgba(49,178,14,1) 0%,rgba(49,178,14,0.81) 49%,rgba(49,178,14,1) 50%,rgba(35,127,10,1) 100%);
+	border-radius: 2px;
+	color: #FFF;
+	display: inline-block;
+	font-weight: bold;
+	padding: 8px 13px;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Simplecatalog .price-n-buy .buy a:hover {
+	background: #31b20e;
+	background: -moz-linear-gradient(top,  #31b20e 0%, #237f0a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#31b20e), color-stop(100%,#237f0a));
+	background: -webkit-linear-gradient(top,  #31b20e 0%,#237f0a 100%);
+	background: -o-linear-gradient(top,  #31b20e 0%,#237f0a 100%);
+	background: -ms-linear-gradient(top,  #31b20e 0%,#237f0a 100%);
+	background: linear-gradient(to bottom,  #31b20e 0%,#237f0a 100%);
+}
+
+.Simplecatalog .price-n-buy .buy a:active {
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.Simplecatalog .price-n-buy .price {
+	background: none repeat scroll 0 0 #fefefe;
+	border: 7px solid #EEE;
+	border-radius: 2px;
+	border-right: 20px solid #EEE;
+	display: inline-block;
+	padding: 5px;
+	position: relative;
+	transform: rotate(-2deg);
+}
+
+.Simplecatalog .price-n-buy .price:after {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 7px;
+	content: "";
+	display: block;
+	height: 12px;
+	position: absolute;
+	right: -15px;
+	top: 10px;
+	width: 12px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.22) inset;
+}
+
+.Simplecatalog .price-n-buy .price .main {}
+
+.Simplecatalog .price-n-buy .price .main.old {
+	text-decoration: line-through;
+	color: #888;
+	font-size: 18px;
+}
+
+.Simplecatalog .price-n-buy .price .new {}
+
+.Simplecatalog .price-n-buy .price .active{
+	font-size: 24px;
+	color: #39A638;
+}
+
+.Simplecatalog .price-n-buy .price .currency {}
+
+/* small buy button */
+
+.Simplecatalog .price-n-buy.short {
+	background: none;
+	margin-bottom: 5px;
+}
+
+.Simplecatalog .price-n-buy.short .buy a {
+	text-transform: none;
+}
+
+.Simplecatalog .price-n-buy.short .buy a s {
+	opacity: 0.7;
+}
+
+/* items count field controls */
+
+.Simplecatalog .price-n-buy .items-to-buy-field-and-controls,
+.Simplecatalog .price-n-buy .product-count-field-control {
+	display: inline-block;
+}
+
+/* cart items */
+
+.Simplecatalog .shop-cart-items {
+	border: 1px solid #EEE;
+	width: 100%;
+}
+
+.Simplecatalog .shop-cart-items thead {
+	background: #EEE;
+}
+
+.Simplecatalog .shop-cart-items tbody {}
+
+.Simplecatalog .shop-cart-items tbody a {
+	text-decoration: none !important;
+}
+
+.Simplecatalog .shop-cart-items tbody td.num {
+	width: 20px;
+	text-align: right;
+}
+
+.Simplecatalog .shop-cart-items tbody td {
+	border: 1px solid #EEEEEE;
+	padding: 1px 5px;
+}
+
+.Simplecatalog .shop-cart-items tbody td.short {
+	width: 120px;
+}
+
+.Simplecatalog .shop-cart-items tbody img.preview {
+	border-radius: 2px;
+	height: auto;
+	width: 30px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+/* order */
+
+.Simplecatalog.Order .step {
+	background: none repeat scroll 0 0 #CFCFCF;
+	border-radius: 20px;
+	color: #FFF;
+	display: inline-block;
+	height: 30px;
+	margin-right: 15px;
+	text-align: center;
+	width: 30px;
+}
+
+.Simplecatalog.Order .add-comment-link {
+	display: inline-block;
+	border-bottom: 1px dotted;
+	margin-bottom: 20px;
+	text-decoration: none !important;
+}
+
+/* orders list */
+
+.Simplecatalog.Orders .orders-list tbody tr.new {
+	background: none repeat scroll 0 0 #E3F8FF;
+}

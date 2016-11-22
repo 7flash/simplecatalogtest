@@ -1,0 +1,214 @@
+/* -------------------------------------------------------------------
+
+	ИКОНКИ 
+	
+	Иконки Glyphicons
+	http://glyphicons.com/
+
+	
+	Пример использования:
+	
+	<a href="#"><i class="sc-icon-remove"></i> Remove</a>
+
+------------------------------------------------------------------- */
+
+[class^="sc-icon-"],
+[class*=" sc-icon-"] {
+	display: inline-block;
+	vertical-align: text-top;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	background: url(../images/icons/icons.png) no-repeat;
+}
+.sc-icon-white {
+	background-image: url(../images/icons/icons-white.png);
+}
+
+.sc-icon-glass              { background-position: 0      0; }
+.sc-icon-music              { background-position: -24px  0; }
+.sc-icon-search             { background-position: -48px  0; }
+.sc-icon-envelope           { background-position: -72px  0; }
+.sc-icon-heart              { background-position: -96px  0; }
+.sc-icon-star               { background-position: -120px 0; }
+.sc-icon-star-empty         { background-position: -144px 0; }
+.sc-icon-user               { background-position: -168px 0; }
+.sc-icon-film               { background-position: -192px 0; }
+.sc-icon-th-large           { background-position: -216px 0; }
+.sc-icon-th                 { background-position: -240px 0; }
+.sc-icon-th-list            { background-position: -264px 0; }
+.sc-icon-ok                 { background-position: -288px 0; }
+.sc-icon-remove             { background-position: -312px 0; }
+.sc-icon-zoom-in            { background-position: -336px 0; }
+.sc-icon-zoom-out           { background-position: -360px 0; }
+.sc-icon-off                { background-position: -384px 0; }
+.sc-icon-signal             { background-position: -408px 0; }
+.sc-icon-cog                { background-position: -432px 0; }
+.sc-icon-trash              { background-position: -456px 0; }
+
+.sc-icon-home               { background-position: 0      -24px; }
+.sc-icon-file               { background-position: -24px  -24px; }
+.sc-icon-time               { background-position: -48px  -24px; }
+.sc-icon-road               { background-position: -72px  -24px; }
+.sc-icon-download-alt       { background-position: -96px  -24px; }
+.sc-icon-download           { background-position: -120px -24px; }
+.sc-icon-upload             { background-position: -144px -24px; }
+.sc-icon-inbox              { background-position: -168px -24px; }
+.sc-icon-play-circle        { background-position: -192px -24px; }
+.sc-icon-repeat             { background-position: -216px -24px; }
+.sc-icon-refresh            { background-position: -240px -24px; }
+.sc-icon-list-alt           { background-position: -264px -24px; }
+.sc-icon-lock               { background-position: -287px -24px; }
+.sc-icon-flag               { background-position: -312px -24px; }
+.sc-icon-headphones         { background-position: -336px -24px; }
+.sc-icon-volume-off         { background-position: -360px -24px; }
+.sc-icon-volume-down        { background-position: -384px -24px; }
+.sc-icon-volume-up          { background-position: -408px -24px; }
+.sc-icon-qrcode             { background-position: -432px -24px; }
+.sc-icon-barcode            { background-position: -456px -24px; }
+
+.sc-icon-tag                { background-position: 0      -48px; }
+.sc-icon-tags               { background-position: -25px  -48px; }
+.sc-icon-book               { background-position: -48px  -48px; }
+.sc-icon-bookmark           { background-position: -72px  -48px; }
+.sc-icon-print              { background-position: -96px  -48px; }
+.sc-icon-camera             { background-position: -120px -48px; }
+.sc-icon-font               { background-position: -144px -48px; }
+.sc-icon-bold               { background-position: -167px -48px; }
+.sc-icon-italic             { background-position: -192px -48px; }
+.sc-icon-text-height        { background-position: -216px -48px; }
+.sc-icon-text-width         { background-position: -240px -48px; }
+.sc-icon-align-left         { background-position: -264px -48px; }
+.sc-icon-align-center       { background-position: -288px -48px; }
+.sc-icon-align-right        { background-position: -312px -48px; }
+.sc-icon-align-justify      { background-position: -336px -48px; }
+.sc-icon-list               { background-position: -360px -48px; }
+.sc-icon-indent-left        { background-position: -384px -48px; }
+.sc-icon-indent-right       { background-position: -408px -48px; }
+.sc-icon-facetime-video     { background-position: -432px -48px; }
+.sc-icon-picture            { background-position: -456px -48px; }
+
+.sc-icon-pencil             { background-position: 0      -72px; }
+.sc-icon-map-marker         { background-position: -24px  -72px; }
+.sc-icon-adjust             { background-position: -48px  -72px; }
+.sc-icon-tint               { background-position: -72px  -72px; }
+.sc-icon-edit               { background-position: -96px  -72px; }
+.sc-icon-share              { background-position: -120px -72px; }
+.sc-icon-check              { background-position: -144px -72px; }
+.sc-icon-move               { background-position: -168px -72px; }
+.sc-icon-step-backward      { background-position: -192px -72px; }
+.sc-icon-fast-backward      { background-position: -216px -72px; }
+.sc-icon-backward           { background-position: -240px -72px; }
+.sc-icon-play               { background-position: -264px -72px; }
+.sc-icon-pause              { background-position: -288px -72px; }
+.sc-icon-stop               { background-position: -312px -72px; }
+.sc-icon-forward            { background-position: -336px -72px; }
+.sc-icon-fast-forward       { background-position: -360px -72px; }
+.sc-icon-step-forward       { background-position: -384px -72px; }
+.sc-icon-eject              { background-position: -408px -72px; }
+.sc-icon-chevron-left       { background-position: -432px -72px; }
+.sc-icon-chevron-right      { background-position: -456px -72px; }
+
+.sc-icon-plus-sign          { background-position: 0      -96px; }
+.sc-icon-minus-sign         { background-position: -24px  -96px; }
+.sc-icon-remove-sign        { background-position: -48px  -96px; }
+.sc-icon-ok-sign            { background-position: -72px  -96px; }
+.sc-icon-question-sign      { background-position: -96px  -96px; }
+.sc-icon-info-sign          { background-position: -120px -96px; }
+.sc-icon-screenshot         { background-position: -144px -96px; }
+.sc-icon-remove-circle      { background-position: -168px -96px; }
+.sc-icon-ok-circle          { background-position: -192px -96px; }
+.sc-icon-ban-circle         { background-position: -216px -96px; }
+.sc-icon-arrow-left         { background-position: -240px -96px; }
+.sc-icon-arrow-right        { background-position: -264px -96px; }
+.sc-icon-arrow-up           { background-position: -289px -96px; }
+.sc-icon-arrow-down         { background-position: -312px -96px; }
+.sc-icon-share-alt          { background-position: -336px -96px; }
+.sc-icon-resize-full        { background-position: -360px -96px; }
+.sc-icon-resize-small       { background-position: -384px -96px; }
+.sc-icon-plus               { background-position: -408px -96px; }
+.sc-icon-minus              { background-position: -433px -96px; }
+.sc-icon-asterisk           { background-position: -456px -96px; }
+
+.sc-icon-exclamation-sign   { background-position: 0      -120px; }
+.sc-icon-gift               { background-position: -24px  -120px; }
+.sc-icon-leaf               { background-position: -48px  -120px; }
+.sc-icon-fire               { background-position: -72px  -120px; }
+.sc-icon-eye-open           { background-position: -96px  -120px; }
+.sc-icon-eye-close          { background-position: -120px -120px; }
+.sc-icon-warning-sign       { background-position: -144px -120px; }
+.sc-icon-plane              { background-position: -168px -120px; }
+.sc-icon-calendar           { background-position: -192px -120px; }
+.sc-icon-random             { background-position: -216px -120px; }
+.sc-icon-comment            { background-position: -240px -120px; }
+.sc-icon-magnet             { background-position: -264px -120px; }
+.sc-icon-chevron-up         { background-position: -288px -120px; }
+.sc-icon-chevron-down       { background-position: -313px -119px; }
+.sc-icon-retweet            { background-position: -336px -120px; }
+.sc-icon-shopping-cart      { background-position: -360px -120px; }
+.sc-icon-folder-close       { background-position: -384px -120px; }
+.sc-icon-folder-open        { background-position: -408px -120px; }
+.sc-icon-resize-vertical    { background-position: -432px -119px; }
+.sc-icon-resize-horizontal  { background-position: -456px -118px; }
+
+
+[class^="sc-icon-synio-"],
+[class*=" sc-icon-synio-"] {
+	background: url(../images/icons/icons-synio.png) no-repeat;
+}
+
+/* default icons mod */
+.sc-icon-ok-green 				{ width: 18px; height: 20px; background: url(../images/icons/icons-synio.png) -479px -2px no-repeat; }
+.sc-icon-question-sign      	{ width: 23px; height: 23px; background: url(../images/icons/icons-synio.png) -138px 0 no-repeat; cursor: help; }
+
+
+
+.sc-icon-synio-arrow-up 		{ width: 9px; height: 9px; background-position: -24px -24px; }
+.sc-icon-synio-arrow-down 		{ width: 9px; height: 9px; background-position: -33px -24px; }
+
+.sc-icon-synio-star-green 		{ width: 12px; height: 11px; background-position: 0 -23px; }
+.sc-icon-synio-star-blue 		{ width: 11px; height: 11px; background-position: 0 -37px; }
+.sc-icon-synio-star-white 		{ width: 11px; height: 11px; background-position: 0 -51px; }
+.sc-icon-synio-star-yellow 		{ width: 11px; height: 11px; background-position: 0 -65px; }
+
+.sc-icon-synio-share-blue 		{ width: 11px; height: 11px; background-position: -12px -37px; }
+.sc-icon-synio-share-white 		{ width: 11px; height: 11px; background-position: -12px -51px; }
+
+.sc-icon-synio-rating 			{ width: 11px; height: 11px; background-position: -12px -23px; }
+.sc-icon-synio-arrows 			{ width: 11px; height: 11px; background-position: -22px -65px; }
+
+.sc-icon-synio-comments-green			{ width: 11px; height: 11px; background-position: -46px -23px; }
+.sc-icon-synio-comments-green-filled	{ width: 11px; height: 11px; background-position: -46px -51px; }
+.sc-icon-synio-comments-blue			{ width: 11px; height: 11px; background-position: -46px -37px; }
+.sc-icon-synio-comments-small			{ width: 11px; height: 11px; background-position: -28px -51px; }
+
+.sc-icon-synio-tags						{ width: 15px; height: 11px; background-position: -26px -37px; }
+
+.sc-icon-synio-actions-edit				{ width: 16px; height: 16px; background-position: -115px -23px; }
+.sc-icon-synio-actions-delete			{ width: 16px; height: 16px; background-position: -131px -23px; }
+.sc-icon-synio-actions-draft			{ width: 16px; height: 16px; background-position: -115px -39px; }
+
+.sc-icon-synio-topic-private			{ width: 23px; height: 23px; background-position: -230px 0; }
+.sc-icon-synio-topic-draft				{ width: 23px; height: 23px; background-position: -253px 0; }
+.sc-icon-synio-topic-link				{ width: 23px; height: 23px; background-position: -276px 0; }
+
+.sc-icon-synio-close					{ width: 16px; height: 16px; background-position: -131px -39px; }
+.sc-icon-synio-link						{ width: 11px; height: 11px; background-position: -11px -65px; }
+
+.sc-icon-synio-add-friend				{ width: 16px; height: 16px; background-position: -147px -23px; }
+.sc-icon-synio-send-message				{ width: 16px; height: 16px; background-position: -163px -23px; }
+.sc-icon-synio-new-message				{ width: 16px; height: 16px; background-position: -163px -55px; }
+.sc-icon-synio-join						{ width: 16px; height: 16px; background-position: -179px -23px; }
+.sc-icon-synio-search					{ width: 16px; height: 16px; background-position: -147px -55px; }
+.sc-icon-synio-submit					{ width: 16px; height: 16px; background-position: -115px -55px; }
+
+.sc-icon-synio-arrow-left				{ width: 16px; height: 16px; background-position: -115px -71px; }
+.sc-icon-synio-arrow-right				{ width: 16px; height: 16px; background-position: -131px -71px; }
+
+.sc-icon-synio-remove					{ width: 24px; height: 24px; background-position: -368px 0; vertical-align: middle; position: relative; top: -2px; }
+.sc-icon-synio-remove:hover				{ background-position: -392px 0; }
+
+.sc-icon-synio-vote-info-down			{ width: 16px; height: 16px; background-position: -67px -71px; }
+.sc-icon-synio-vote-info-up				{ width: 16px; height: 16px; background-position: -83px -71px; }
+.sc-icon-synio-vote-info-zero			{ width: 16px; height: 16px; background-position: -99px -71px; }
+.sc-icon-synio-vote-info-view			{ width: 16px; height: 16px; background-position: -179px -39px; }

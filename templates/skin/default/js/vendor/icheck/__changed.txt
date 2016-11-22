@@ -1,0 +1,5 @@
+22:07 07.04.2015
+
+Обновлен green.css - стиль в конце для HiDPI взят с версии iCheck v1.0.2
+
+Теперь плагин здесь https://github.com/fronteed/iCheck/

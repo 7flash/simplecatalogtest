@@ -1,0 +1,207 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/*
+
+	jupiter template fixes
+
+*/
+
+/* base */
+
+.Simplecatalog a:focus,
+.Simplecatalog a:hover,
+.Simplecatalog a:active,
+.Simplecatalog .button:focus,
+.Simplecatalog select:focus,
+.Simplecatalog input[type="file"]:focus,
+.Simplecatalog input[type="radio"]:focus,
+.Simplecatalog input[type="checkbox"]:focus {
+	outline: 0 none;
+}
+
+/* buttons */
+
+.Simplecatalog .button {
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid hsla(0, 0%, 0%, 0);
+	border-radius: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: normal;
+	line-height: 1.42857;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-family: "Roboto Condensed", "Helvetica Neue", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 8px 20px;
+	text-transform: uppercase;
+}
+
+.Simplecatalog .button-primary,
+.Simplecatalog.Product .one-product-wrapper .product-fields > li .view-full-product-page {
+	background-color: hsl(145, 63%, 49%);
+	border-color: hsl(145, 63%, 49%);
+	color: hsl(0, 0%, 100%);
+}
+
+.Simplecatalog .button:active,
+.Simplecatalog .button.active {
+	background-image: none;
+	box-shadow: 0 3px 5px hsla(0, 0%, 0%, 0.125) inset;
+	outline: 0 none;
+}
+
+.Simplecatalog .button:hover,
+.Simplecatalog .button:focus {
+	color: hsl(0, 0%, 100%);
+	text-decoration: none;
+}
+
+.Simplecatalog .button:focus {
+	outline: thin dotted hsl(0, 0%, 20%);
+	outline-offset: -2px;
+}
+
+.Simplecatalog .button-primary:active,
+.Simplecatalog .button-primary.active,
+.Simplecatalog .open .dropdown-toggle.button-primary {
+	background-image: none;
+}
+
+.Simplecatalog .button-primary:hover,
+.Simplecatalog .button-primary:focus,
+.Simplecatalog .button-primary:active,
+.Simplecatalog .button-primary.active,
+.Simplecatalog .open .dropdown-toggle.button-primary {
+	background-color: hsl(146, 64%, 41%);
+	border-color: hsl(145, 63%, 37%);
+	color: hsl(0, 0%, 100%);
+}
+
+/* misc form settings */
+
+.Simplecatalog label {
+	display: block;
+	font-weight: normal;
+	margin-bottom: 2px;
+}
+
+.Simplecatalog dt {
+	font-weight: normal;
+}
+
+.Simplecatalog input.input-text,
+.Simplecatalog select,
+.Simplecatalog textarea.input-text {
+	background-color: hsl(0, 0%, 100%);
+	background-image: none;
+	border: 1px solid hsl(0, 0%, 80%);
+	border-radius: 0;
+	box-shadow: 0 1px 1px hsla(0, 0%, 0%, 0.075) inset;
+	color: hsl(0, 0%, 33%);
+	display: inline-block;
+	font-size: 14px;
+	height: 34px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	vertical-align: middle;
+}
+
+.Simplecatalog .input-text:focus {
+	border-color: hsl(207, 75%, 66%);
+	box-shadow: 0 1px 1px hsla(0, 0%, 0%, 0.075) inset, 0 0 8px hsla(207, 75%, 66%, 0.6);
+	outline: 0 none;
+}
+
+.Simplecatalog .input-text:-moz-placeholder,
+.Simplecatalog .input-text::-moz-placeholder {
+	color: hsl(0, 0%, 60%);
+}
+
+.Simplecatalog .input-text[disabled],
+.Simplecatalog .input-text[readonly],
+.Simplecatalog fieldset[disabled] .input-text {
+	background-color: hsl(0, 0%, 93%);
+	cursor: not-allowed;
+}
+
+.Simplecatalog textarea.input-text {
+	height: auto;
+}
+
+/* blocks */
+
+.Simplecatalog.block {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 0;
+	border: medium none;
+	box-shadow: none;
+	margin-bottom: 40px;
+}
+
+/* modals */
+
+.modal.Simplecatalog {
+	bottom: auto;
+	left: 50%;
+	overflow: auto;
+	right: auto;
+	top: 20%;
+}
+
+.modal.Simplecatalog .modal-content {
+	padding: 20px;
+	border: none;
+	box-shadow: none;
+}
+
+.modal.Simplecatalog .modal-header h3 {
+	line-height: 1.42857;
+	margin: 0;
+	font-size: 18px;
+}
+
+/* special direct fixes */
+
+div.Simplecatalog.Product .sort-order a {
+	margin-right: 5px;
+}
+
+div.Simplecatalog.Product .sort-order .asc.active:after,
+div.Simplecatalog.Product .sort-order .desc.active:after {
+	padding-left: 20px;
+}
+
+.Simplecatalog div.input-text {
+	box-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.15) inset;
+	padding: 2px 10px;
+}
+
+div.Simplecatalog .input-width-30 {
+	width: 42px !important;
+}
+
+div.Simplecatalog .input-width-60 {
+	width: 80px !important;
+}
+
+/* admin menu */
+
+.Simplecatalog.nav.nav-menu li.active a {
+	background: none repeat scroll 0 0 hsl(0, 0%, 93%);
+}

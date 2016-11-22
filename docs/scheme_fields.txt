@@ -1,0 +1,19 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+
+--- Поля схемы ---
+
+При измении типа поля схемы произойдет автоматическая миграция данных, все данные поля будут сохранены и (по возможности) конвертированы в новый тип данных поля.
+При удалении поля из схемы оно удаляется у всех существующих продуктов схемы.
+При добавлении поля в схему оно автоматически добавляется к продуктам схемы со значением по-умолчанию (если задано).

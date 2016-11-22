@@ -1,0 +1,50 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* social buttons */
+
+div.Simplecatalog .social-button {
+	display: block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	float: right;
+	opacity: 0.5;
+	margin-left: 2px;
+	box-shadow: 0 1px 1px hsla(0, 0%, 0%, 0.15);
+	transition: transform 0.4s ease-in 0s;
+}
+
+div.Simplecatalog .social-button:last-child {
+	margin-left: 0;
+}
+
+div.Simplecatalog .social-button:hover {
+	opacity: 0.7;
+	transform: rotate(360deg);
+}
+
+div.Simplecatalog .social-button.tw {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQ4ja2U2w3CMBRDjxH/XYFNOkLZgFEYhRXYoGzSFdjA/DQSSpqUlGvJUh6Kcx9OBJhAnCLFWoKvlYfgjJNtbANMG/tNiqyGtpXGkgbg3RNdU3AV7WrablNsa4vAtXrmm6l+vxCY8/PhtjkUITBQccB577bwpvSiEJQ0hgpu4Nkrmhf2XmtENq89y2JhifbhRdKjN81WyokzcAPGHh8Wn8O/CPfhB4ch6ME0pj94AAAAAElFTkSuQmCC") center center no-repeat;
+}
+
+div.Simplecatalog .social-button.fb {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAAYklEQVQ4je2S0QmAQAxDX5zAjXQ0N3FER4i/Rz2wSFFBA/lrH21aAaZQQyXsCnABZttqHYuc9GqbnkNdGjhlgOUZiuSVY1aSNmCsBHb77l+59xYHSDPt4499qvcf5Qd+AbgDlEFgc8xkdQkAAAAASUVORK5CYII=") center center no-repeat;
+}
+
+div.Simplecatalog .social-button.vk {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAC2klEQVQ4ja2UT0hcVxTGv3vfc6YOmU4cRyLSacduymQ7rd0lYLsRXAQ0FEo37UJFaBeu7FKyEsRFIQVxo6AwwltEspmFWYljsnCjrsxo3KT4b5i+Yuc5vvfOl413eJmYBIIX7uLdc/id7zuHdxQA4gaPvkkYANhKKSqlmipFRAOAUoqWZYXRZBHRJm5y8LZDpVoeoJQiSfUxJUZEa66dSCT+z2QypwAQBIF9enp6x/f9tmQy+d/o6Ojf2Wz2db1eb3ddN+U4znClUvlGay0iotPp9Fk8HvdERGutxXXdNKanpydIwnXdWyQxMTExDYDJZPLftbW1+yTRaDRiJOE4zoMrR8zlcpWjo6OM53lttVotSRJzc3O/YXBw8AlJ+L5vk8Th4eEXHR0dZwDY19dXJgnP89pJYmVlZdgAjRDf9+0wDDVJDA0NFQGAGxsb35PExcVFnCQmJycfAWChUHgRLTY/P/8rAGaz2VcnJyfpqPrl5eWHZh4cGBh4ShJBEFgkUavVPu/q6jrK5/O7V8C2piWAi4uLP5PE5eVlG0ns7e193dnZeQyA0FqHAFgsFoda+zU2NvZXVOHm5ua3U1NTf5KEsVmv1+OFQuE5AFqWFTSBvb29L6vV6m2TLCKKJK67YRhqU2RhYeEXAIzFYo2mZdu2fQAcGRl5HG20UWGuiCgR0VcxRRIHBwdf5nK5SlOhmZpRurS09JOx3qoyDEN9fn7eLiIq6mJ/f/8rA20ClVKilKJt243V1dUBMyTf923T152dnXwqlTorlUo/mKKe531GEtvb23dTqVS1CYxAxbKsy5mZmT9EBNGhlEqlHwEwk8kcl8vl71r7OTs7+/u1/7LWWsIwtPL5/G5/f/+z7u7uY9u2fcdxHm5tbfUppZhIJM7Hx8cf9/T0/FOtVtNBENjr6+v33gG2Qt+3GJRSjG6eZuw6oDlaa9Fai/mOrq/3rbcPAj/l3PjGfgOo0DxT2q2GYQAAAABJRU5ErkJggg==") center center no-repeat;
+}
+
+div.Simplecatalog .social-button.gp {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAA/UlEQVQ4jbWTwQ3CMAxFn6veYYOyAWzACLBBR2AURigbdISyAWxQNkBMYA51RDAJUFQsWVHd5CX5PxZAmTCKKWF/AZY2HoAjcHH/58AK2Nr4EqoqIvIkWwUsgRPQA7WqoqpYvWfQOZk271GzwtVN3ETQzSigncJP7AMwseAtsDCdfCxEZJnTLE5fK4FzamFmI7wB3pRCVW8MLvu4GKDObJgO02DG4HLQoo3q3rDPLkeLa+zZ8MWTSQKBDtgBa+fsR1gmnz5mEbCZAti4U/4CpQ1X9tc2aD0KGLVXY3p2wB6oImg75oTvrhUcr37V0Of1m36OUwI1F6Fffcvl4g7I1E2O+ZxOYgAAAABJRU5ErkJggg==") center center no-repeat;
+}

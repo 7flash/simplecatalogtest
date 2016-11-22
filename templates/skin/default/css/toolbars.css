@@ -1,0 +1,32 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* toolbar button */
+
+.toolbar [class^="toolbar-sc-"] a {
+	padding: 5px 0;
+}
+
+.toolbar [class^="toolbar-sc-"] a i {
+	display: block;
+	height: 25px;
+	margin: 0 auto;
+	width: 25px;
+}
+
+.toolbar .toolbar-sc-admin a i {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsSAAALEgHS3X78AAAA4UlEQVQokc2SsXXEIBBEd68AqTKuDopAHVABFABNEKNQCglRhiJUwTjYZ1nyXXLPiSeCgb9vmAcDoE/0+Oj2H4B93733zMzMMcbz+DiOGOPz+WTmaZq2bSMAvXel1HVMrRVAKeWXb60lACklInLOCWyM6b2fU2QLIOccQvgBjDG4KIRARFpr3HWLpJTKOcuBOMuyvAGEsdZK0JRSa03WEuYNIJJs1tpaqwB40cN7P8/zWS4RDcMwjqM4Z8Xrunrvv5u6Szp99VNKAKiUYowRyznXWrsWJU/XWocQxOT/9/m+ALtoDb5K4AWtAAAAAElFTkSuQmCC") no-repeat scroll center center transparent;
+}
+
+.toolbar .toolbar-sc-cart a i {
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAABNElEQVQ4jXXSzS5EQRAF4G/anQQJ4hFkhIjEY3gB78OD4BXsLFjYSKwQwkZix9LvCBM/YyxuNe0alZxbfaurTtfpaoZbK5BQoR3/sItB4FyROBLJaQhhjs2gF8UvOKgKtmbBFGaxgHnMYQmj2MYKBlUEOkXifKw7QVJ29BH+CK9oVzjE4j93AZ+BLBfOwg/gIRZ9vAf6RWGWmNe96A5Swk7BVvm5yDwJxT5c4TrHEg4a7f1nmeBYrT9lgr1oK/k7jWEEWX/KnwtcRrDU3ESexmlJmPCG/SLYGoKc28NJcdi3LaMbuA3/GOjiRj2draauVuHHgnUa9+r3Lwqn1eN+9/OYflnWt6p+46vF3hqew5eH/uliMtof4A7jgbuI3WKiSZJH1wqtGxFfj05eitgmniL3e9xf+GhiIY2tiyQAAAAASUVORK5CYII=") no-repeat scroll center center transparent;
+}
