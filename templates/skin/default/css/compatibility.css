@@ -1,0 +1,154 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* base setup for all skins */
+
+.Simplecatalog ul,
+.Simplecatalog li {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+}
+
+/* mb */
+
+.Simplecatalog .mb-40 {
+	margin-bottom: 40px !important;
+}
+
+.Simplecatalog .mb-30 {
+	margin-bottom: 30px !important;
+}
+
+.Simplecatalog .mb-20 {
+	margin-bottom: 20px !important;
+}
+
+.Simplecatalog .mb-15 {
+	margin-bottom: 15px !important;
+}
+
+.Simplecatalog .mb-10 {
+	margin-bottom: 10px !important;
+}
+
+.Simplecatalog .mb-5 {
+	margin-bottom: 5px !important;
+}
+
+/* mt, tip: dont use slashes, ex. "mt-30" in synio template in these classes are errors */
+
+.Simplecatalog .mt30 {
+	margin-top: 30px;
+}
+
+.Simplecatalog .mt20 {
+	margin-top: 20px;
+}
+
+.Simplecatalog .mt15 {
+	margin-top: 15px;
+}
+
+.Simplecatalog .mt10 {
+	margin-top: 10px;
+}
+
+.Simplecatalog .mt5 {
+	margin-top: 5px;
+}
+
+/* mr */
+
+.Simplecatalog .mr-10 {
+	margin-right: 10px !important;
+}
+
+/* float */
+
+.Simplecatalog .fl-r {
+	float: right !important;
+}
+
+.Simplecatalog .fl-l {
+	float: left !important;
+}
+
+.Simplecatalog .oh {
+	overflow: hidden;
+}
+
+.Simplecatalog .cb {
+	clear: both;
+}
+
+/* width */
+
+.Simplecatalog .input-width-full {
+	width: 100%;
+}
+
+.Simplecatalog .input-width-30 {
+	width: 30px;
+}
+
+.Simplecatalog .input-width-50 {
+	width: 50px;
+}
+
+.Simplecatalog .input-width-60 {
+	width: 60px;
+}
+
+.Simplecatalog .input-width-100 {
+	width: 100px;
+}
+
+.Simplecatalog .input-width-150 {
+	width: 150px;
+}
+
+.Simplecatalog .input-width-200 {
+	width: 200px;
+}
+
+.Simplecatalog .input-width-250 {
+	width: 250px;
+}
+
+.Simplecatalog .input-width-300 {
+	width: 300px;
+}
+
+.Simplecatalog .input-width-400 {
+	width: 400px;
+}
+
+.Simplecatalog .input-width-500 {
+	width: 500px;
+}
+
+/* align */
+
+.Simplecatalog .ta-c {
+	text-align: center !important;
+}
+
+.Simplecatalog .ta-r {
+	text-align: right !important;
+}
+
+/* visibilty */
+
+.Simplecatalog .d-n {
+	display: none;
+}

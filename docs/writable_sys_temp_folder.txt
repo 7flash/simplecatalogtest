@@ -1,0 +1,24 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+
+--- Документация по плагину Simplecatalog: права на папку tmp движка ---
+
+В папке tmp движка должен быть доступен для записи файл:
+
+/tmp/sc_catalog_urls.dat
+
+В этом файле для низкоуровневого загрузчика плагина содержится список урлов схем для короткого вызова вида "сайт.ком/урл_схемы".
+
+В связи с этим назначьте необходимые права данному файлу чтобы плагин мог производить запись в данный файл (при редактировании схемы).
+Если файл не будет доступен для записи короткие урлы не будут работать.

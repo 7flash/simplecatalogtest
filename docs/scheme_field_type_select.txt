@@ -1,0 +1,19 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+
+--- Поле схемы типа "селект" ---
+
+При выборе значения из списка при создании продукта при сохранении записывается в продукт его индекс (номер строки),
+поэтому если были созданы продукты и список значений селекта в настройках поля схемы редактировался (смещались позиции), то в продуктах будут другие значения.
+Другими словами, список значений селекта можно дополнять только в конец, чтобы не изменились значения в сохраненных продуктах.

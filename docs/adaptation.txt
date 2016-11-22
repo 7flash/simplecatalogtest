@@ -1,0 +1,20 @@
+
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+--- АДАПТАЦИЯ ПОД СОБСТВЕННЫЕ ШАБЛОНЫ ---
+
+У плагина есть простой механизм для добавления своих собственных ксс и жс файлов, которые бы не затирались при обновлении плагина. Также добавлен механизм адаптации плагина под нестандартные шаблоны — нужно всего лишь положить нужные css в специальную папку с именем шаблона и они автоматически будут подключены плагином.
+
+Плагин написан таким образом, что адаптация в большинстве случаев не потребуется и данный функционал добавлен скорее как возможность, а не необходимость.
+
+Читать подробнее - в templates/skin/readme.txt

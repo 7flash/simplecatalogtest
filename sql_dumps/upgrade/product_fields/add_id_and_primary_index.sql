@@ -1,0 +1,2 @@
+
+ALTER TABLE `prefix_simplecatalog_product_fields` ADD `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;

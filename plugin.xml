@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Simple Catalog</lang>
+	</name>
+	<author>
+		<lang name="default">Serge Pustovit (PSNet)</lang>
+	</author>
+	<homepage>http://psnet.lookformp3.net</homepage>
+	<version>9.0.0</version>
+	<settings>{scheme}</settings>
+	<requires>
+		<livestreet>1.0</livestreet>
+		<plugins></plugins>
+	</requires>
+	<description>
+		<lang name="default">Позволяет создавать неограниченное количество гибко настраиваемых каталогов (типов контента) и разделов с большим количеством разных параметров и возможностей.</lang>
+	</description>
+</plugin>

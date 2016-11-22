@@ -1,0 +1,1 @@
+{include file="{$aTemplatePathPlugin.simplecatalog}actions/ActionProduct/mapitems.tpl"}

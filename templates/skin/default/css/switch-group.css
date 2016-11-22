@@ -1,0 +1,79 @@
+/**
+ * Simplecatalog plugin
+ *
+ * @copyright Serge Pustovit (PSNet), 2008 - 2015
+ * @author    Serge Pustovit (PSNet) <light.feel@gmail.com>
+ *
+ * @link      http://psnet.lookformp3.net
+ * @link      http://livestreet.ru/profile/PSNet/
+ * @link      https://catalog.livestreetcms.com/profile/PSNet/
+ * @link      http://livestreetguide.com/developer/PSNet/
+ */
+
+/* switch group */
+
+div.Simplecatalog .switch-group {
+	background: #FEFEFE;
+	border: 1px solid #BEBEBE;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+div.Simplecatalog .switch-group .switch-item {
+	border-right: 1px solid #BEBEBE;
+	display: block;
+	float: left;
+	padding: 5px;
+}
+
+div.Simplecatalog .switch-group .switch-item:first-child {
+	border-radius: 3px 0 0 3px;
+}
+
+div.Simplecatalog .switch-group .switch-item:last-child {
+	border-right: medium none;
+	border-radius: 0 3px 3px 0;
+}
+
+div.Simplecatalog .switch-group .switch-item:not(.active) {
+	box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.3);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(247,247,247,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 100%);
+}
+
+div.Simplecatalog .switch-group .switch-item.active,
+div.Simplecatalog .switch-group .switch-item:active {
+	box-shadow: 0 0 3px hsla(0, 0%, 0%, 0.19) inset;
+}
+
+div.Simplecatalog .switch-group .switch-item.active .switch-link {
+	opacity: 0.1;
+	cursor: default;
+}
+
+/* scheme template switch icons */
+
+div.Simplecatalog [class*=" view-type-"] {
+	display: block;
+	width: 15px;
+	height: 15px;
+	opacity: 0.3;
+	vertical-align: text-top;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAArSURBVDhPY2RgYPgPxGQBJihNFqBIM+N/IICySQajfiYRjPqZRECBZgYGAFcCEAh2kYS2AAAAAElFTkSuQmCC") no-repeat scroll left top hsla(0, 0%, 0%, 0);
+}
+
+div.Simplecatalog [class*=" view-type-"]:hover {
+	opacity: 0.35;
+}
+
+div.Simplecatalog [class*=" view-type-"]:not(.view-type-default):not(.view-type-tiles) {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAApSURBVDhPY2RgYPgPxGQBJihNFhjVTCJg/A8EUDbJYDSeSQQDpZmBAQD1hQYWppbnsgAAAABJRU5ErkJggg==")
+}
+
+div.Simplecatalog .view-type-tiles {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAzSURBVDhPY2RgYPgPxFjB////GRgZQUqwAyYoTRYY1UwiYARGB86oIgRG45lEMFCaGRgA/E4MFpjtNwkAAAAASUVORK5CYII=");
+}
